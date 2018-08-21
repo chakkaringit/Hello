@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func clickButton(_ sender: Any) {
         self.lblHello.text = "Hello \(self.txtMessage.text!) click num \(count)"
+        
     }
     
     @IBAction func changeTheme(_ sender: Any) {
